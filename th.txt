@@ -1,0 +1,89 @@
+JAVASCRIPT:
+
+server side programming lang:
+
+Client side programming lang:
+browser
+
+HTML:
+HTML IS STATIC WEB PAGE:
+
+JS:
+to manuplate html[DOM]
+<---------------------------->
+
+SCRIPT LANG ||| PROGRAMMING LANG
+log("Hello")
+
+js: scripting lang:
+
+js -->browser -->HTML
+
+---------------------->
+2 typed prog scripting lng
+1)statically typed:
+	variable declare data type
+2)dynamically typed
+	variable decalare no need  provide data type:
+
+
+js:
+
+external js file -->link html page
+internal script ---> html page <script>
+inline js -->script
+
+
+we have 3 keywords to declare variable:
+1) var
+2) let
+3) const
+
+operators:
+if else
+switch case
+loops
+
+JSON
+
+
+
+
+void demo(){
+
+}
+int sum(int a int b){
+	//
+}
+
+//function ---> 
+
+function funname(parmas){
+	
+}
+
+
+dom --> document objecct model:
+bom : browser object model
+
+id : unique
+class : can be duplicate
+name  : 
+tag   :
+
+
+<h1>tetx</h1>
+text: innerText
+
+<div>
+<h1></h1>
+</div>
+
+innerHTML
+
+<img src>
+
+
+
+
+

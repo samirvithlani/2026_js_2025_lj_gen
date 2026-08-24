@@ -87,6 +87,11 @@ innerHTML
 
 query seelctor..
 
+dicr
 
 
+default image:
+
+same folder 5 image
+hint:array radnom index
 

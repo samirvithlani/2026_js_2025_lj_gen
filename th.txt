@@ -95,3 +95,15 @@ default image:
 same folder 5 image
 hint:array radnom index
 
+
+
+
+page end right side bootom button
+goto top
+click smooth behaviour -->
+
+viode tag: video play
+left tab --> pause
+play --> afte 1 seconf video play
+
+

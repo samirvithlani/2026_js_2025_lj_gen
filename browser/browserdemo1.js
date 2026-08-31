@@ -5,7 +5,13 @@ window.addEventListener("DOMContentLoaded",()=>{
 })
 
 //resize:
+
 window.addEventListener("resize",()=>{
-    console.log(window.innerWidth)
-    console.log(window.innerHeight)
+    // console.log("height",window.innerWidth)
+    // console.log("w",window.innerHeight)
+
+    if(window.innerWidth <= screen.width*0.5){
+        alert("50% screen")
+    }
+    
 })

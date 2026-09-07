@@ -1,6 +1,8 @@
 const root= document.getElementById("root")
+const mybutton = document.createElement("button")
+var users = [11,22,33,45,67]
 
-var users = ["amit","sumit","raj","parth","jay","kunal"]
+
 
 for(let i=0;i<users.length;i++){
 

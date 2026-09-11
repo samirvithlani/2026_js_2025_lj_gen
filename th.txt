@@ -117,3 +117,34 @@ innerHTML + setInterval
 stop --> clearinterval
 
 
+----------------------------------
+
+add title [] input type text
+add subtitle[] input type text
+	create note
+broeswer --> button
+
+js --> function -->call
+
+note create 
+dom.createEleme("div")
+div.innn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

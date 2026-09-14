@@ -131,6 +131,10 @@ dom.createEleme("div")
 div.innn
 
 
+when we call any event from html
+we can pass event glob objcet in function param
+
+
 
 
 

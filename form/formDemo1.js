@@ -4,8 +4,19 @@ const submitHandler = (event)=>{
     console.log("form subbmited !!!!")
 
     const name = document.getElementById("name") //<input>
+    const namevalue = document.getElementById("namevalue")
     //console.log(name)
     console.log(name.value)
+
+    if(name.value.length<=0){
+
+        namevalue.innerHTML="name is required*"
+        namevalue.style.color ="red"
+    }
+    else{
+        namevalue.innerHTML=name.value
+        namevalue.style.color = "green"
+    }
 
     const email = document.getElementById("email")
     console.log(email.value)

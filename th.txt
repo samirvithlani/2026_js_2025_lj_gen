@@ -135,20 +135,53 @@ when we call any event from html
 we can pass event glob objcet in function param
 
 
+<--------------------------------------------------->
+
+JAVASCRIPT is non syncronized programming tech
+
+line 1
+line 2
+line 3
 
 
+output
+
+line 1
+line 2
+line 3
+
+---------------------------------------------------->
+
+line 1
+line 2 -->exceute time ??? 3 seconds
+line 3
 
 
+line 1
+line 3
+after 3 seconds
+line 2
 
 
+eg1:
 
+line 1 ---> noram
+line 2 db operation --->time
+lines.... no wait
 
+depedancy:
+line 1
+line 2 data --->
+print --->
 
+--->
+Promise 
 
+Promise is class
 
-
-
-
+stages:
+pending
+fulfill / reject
 
 
 

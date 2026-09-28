@@ -97,12 +97,29 @@ const findPlayerByName = (id)=>{
     //3 sec player object return in resolve 
     //if player not found then reject
 
+    const foundPlayer = players.find((p)=>p.id == id)
+
+    const promise = new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            if(foundPlayer){
+                resolve(foundPlayer)
+            }
+            else{
+                reject("player not found")
+            }
+        }, 3000);
+    })
+
     //return promise
+    return promise
 
 }
 
 
-const getData = ()=>{
+const getData = async()=>{
 
-    findPlayerByName()
+    const player = await findPlayerByName(190)
+    console.log(player)
 }
+
+getData()

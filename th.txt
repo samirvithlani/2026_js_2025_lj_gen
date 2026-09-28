@@ -185,3 +185,15 @@ fulfill / reject
 
 
 
+then(()=>{
+	then(()=>{
+		then(()=>{
+
+		})
+	})
+})
+
+
+//callback hell
+async await..
+try catch

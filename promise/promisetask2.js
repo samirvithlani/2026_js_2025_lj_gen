@@ -120,6 +120,51 @@ const posts = [
 ];
 
 
+const finduser= (username)=>{
+
+    const foundUser = users.find((u)=>u.username==username)
+    const promise = new Promise((resolve,reject)=>{
+        setTimeout(() => {
+            if(foundUser){
+                resolve(foundUser)
+            }
+            else{
+                reject(null)
+            }
+        }, 3000);
+    })
+    return promise
+}
+
+const findPosts = (id)=>{
+
+    const foundPosts = posts.filter((p)=>p.userId == id)
+
+    const promise = new Promise((resolve,reject)=>{
+        setTimeout(() => {
+                if(findPosts.length>0){
+                    resolve(foundPosts)
+                }
+                else{
+                    reject(null)
+                }
+        }, 3000);
+    })
+
+    return promise
+}
+
+
+const insta = async()=>{
+    const user = await finduser("rahul_dev")
+    console.log(user)
+    if(user!=null){
+        const posts = await findPosts(user.id)
+        console.log(posts)
+    }
+}
+
+insta()
 
 //create 1 function fetch user by username
 //return promise

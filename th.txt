@@ -197,3 +197,9 @@ then(()=>{
 //callback hell
 async await..
 try catch
+
+
+
+
+whatsapp: --> images: 10 --> 10 sent -->sucess
+

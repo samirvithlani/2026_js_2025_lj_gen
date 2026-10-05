@@ -214,3 +214,23 @@ form start date
 form end date:
 
 90
+
+const booking = {
+    passenger: "Ram",
+    source: "Ahmedabad",
+    destination: "Mumbai",
+    departure: "2026-12-25T18:30:00"
+};
+
+
+
+Your program should calculate:
+- Days remaining
+- Hours remaining
+- Minutes remaining
+- Departure day
+- Departure date
+- Whether the booking is:
+  - "Upcoming"
+  - "Today"
+  - "Departed"

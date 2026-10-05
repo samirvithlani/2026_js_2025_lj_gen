@@ -203,3 +203,14 @@ try catch
 
 whatsapp: --> images: 10 --> 10 sent -->sucess
 
+
+
+if employee is eligible for bonus or not:
+
+join ---> 90 days he is eligible:
+
+
+form start date
+form end date:
+
+90

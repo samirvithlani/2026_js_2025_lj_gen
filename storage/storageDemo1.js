@@ -25,3 +25,16 @@ const clearStorages = ()=>{
     //localStorage.clear()
     //sessionStorage.clear()
 }
+
+
+const storeCookie = ()=>{
+    document.cookie = "username=samir"
+    document.cookie="theme=dark;Max-Age=86400;path=/;SameSite=Lax;Secure"
+    document.cookie="theme1=dark1;Max-Age=86400;path=/;SameSite=Secure;Secure"
+
+
+}
+
+const getCookie = ()=>{
+    console.log(document.cookie)
+}

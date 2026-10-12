@@ -234,3 +234,24 @@ Your program should calculate:
   - "Upcoming"
   - "Today"
   - "Departed"
+
+
+  type of cookies:
+
+  session cookie:
+  cookie without an explit expire and max-age
+  it will remove when broeswer session end
+
+  persist cookie:
+  cookie with an explit expire and max-age
+  it can wrok accorss browser
+
+based on secury access:
+http only: JAVASCRIPT can not read this cookie
+
+secure: sent to HTTPS only
+SameSite: control cookies are sent in croess-site request
+First-party:  assosited with site context
+third party cookie:assosited with diff mode of application
+
+  
